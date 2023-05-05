@@ -10,6 +10,7 @@ const {
 } = require("../controllers/user-controller");
 
 // /api/users
+// Make aure this route properly references what it has to!
 router.route("/").get(getAllUsers).post(createUser);
 
 // /api/users/:id
